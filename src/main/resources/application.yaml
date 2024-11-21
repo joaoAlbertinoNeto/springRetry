@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: demo
+    cloud:
+        openfeign:
+            client:
+                config:
+                    portout:
+                        connectTimeout: 5000
+                        readTimeout: 5000
+
