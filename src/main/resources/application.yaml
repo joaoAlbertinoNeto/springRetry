@@ -1,11 +1,9 @@
 spring:
     application:
         name: demo
-    cloud:
-        openfeign:
-            client:
-                config:
-                    portout:
-                        connectTimeout: 5000
-                        readTimeout: 5000
 
+
+## data used
+url: 
+    out:
+        provider: 'https://rawcdn.githack.com/kamikazechaser/administrative-divisions-db/master/api/'
