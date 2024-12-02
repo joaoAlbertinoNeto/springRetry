@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spring.retry</groupId>
-	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>spring-retry</description>
+	<artifactId>springrtr</artifactId>
+	<version>0.1</version>
+	<name>springrtr</name>
+	<description>springretry</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

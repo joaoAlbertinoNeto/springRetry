@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springrtr
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: springrtr
+  template:
+    metadata:
+      labels:
+        app: springrtr
+    spec:
+      containers:
+      - name: springrtr
+        image:  joaoalbertino/springrtr:latest
+        ports:
+        - containerPort: 8080
+        env:
+          - name: URL
+            valueFrom:
+              configMapKeyRef:
+                name: env-config
+                key: URL

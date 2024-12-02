@@ -6,4 +6,4 @@ spring:
 ## data used
 url: 
     out:
-        provider: 'https://rawcdn.githack.com/kamikazechaser/administrative-divisions-db/master/api/'
+        provider: '${URL:https://rawcdn.githack.com/kamikazechaser/administrative-divisions-db/master/api/}'
